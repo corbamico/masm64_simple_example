@@ -1,5 +1,4 @@
-include \masm32\include64\masm64rt.include
-
+include \masm32\include64\masm64rt.inc
 .data
     pText  db "Simple MASM",0
     pTitle db "Welcome",0
