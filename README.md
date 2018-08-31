@@ -3,7 +3,8 @@
 ## prepare
 
   Download MASM32 64bit [here](http://www.masm32.com/download/build_x64.zip) and unzip it to root \masm32 directory on any of partition.  
-  Find ml64/link from "Visual Studio 20xx", Copy ml64.exe/link.exe etc. to \masm32\bin64 (filelist "Microsoft_File_List.txt" is under that directory).
+  Find ml64/link from "Visual Studio 20xx", Copy ml64.exe/link.exe etc. to \masm32\bin64 (filelist "Microsoft_File_List.txt" is under that directory).  
+  You can download [BuildTools for Visual Studio 2017](https://go.microsoft.com/fwlink/p/?linkid=875721)  
 
 ## Compile
 
@@ -16,8 +17,10 @@
 ### method 2: nmake
 
 ```shell
->cd src
->cd nmake
+>cd simple_dialog
+>nmake
+>cd simple_exit
+>nmake
 ```
 
 ### method 3: cmake
